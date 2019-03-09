@@ -5,12 +5,12 @@ import java.util.*
 /**
  * Fibonacci program example
  */
-class Fibonacci {
-    fun onInit() {
-        val sc = Scanner(System.`in`)
+class Fibonacci(title: String) {
+    init {
+        println(title)
 
         print("Enter -n: ")
-        val n = sc.nextInt()
+        val n = Scanner(System.`in`).nextInt()
 
         for (i in 0..n) {
             print(" " + fibonacciCalculation(i))

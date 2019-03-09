@@ -2,11 +2,14 @@ package deret
 
 import java.util.*
 
-fun onInitDeretTest1() {
-    val sc = Scanner(System.`in`)
+/**
+ * Deret program example
+ */
+fun onInitDeretTest1(title: String) {
+    println(title)
 
     print("Enter a -n: ")
-    val n: Int = sc.nextInt()
+    val n = Scanner(System.`in`).nextInt()
 
     var deret = 0
 
