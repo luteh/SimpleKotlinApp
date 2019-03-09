@@ -5,17 +5,19 @@ import java.util.*
 /**
  * Deret program example
  */
-fun onInitDeretTest1(title: String) {
-    println(title)
+class DeretTest1(title: String){
+    init {
+        println(title)
 
-    print("Enter a -n: ")
-    val n = Scanner(System.`in`).nextInt()
+        print("Enter a -n: ")
+        val n = Scanner(System.`in`).nextInt()
 
-    var deret = 0
+        var deret = 0
 
-    for (i in 0..n) {
-        if (i % 2 != 0) deret -= 3 else deret += 5
+        for (i in 0..n) {
+            if (i % 2 != 0) deret -= 3 else deret += 5
 
-        print("$deret ")
+            print("$deret ")
+        }
     }
 }

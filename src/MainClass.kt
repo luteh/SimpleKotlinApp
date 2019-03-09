@@ -2,8 +2,8 @@ import StringResources.Companion.getTitle
 import StringResources.Companion.label_enter_option
 import StringResources.Companion.label_option_items
 import StringResources.Companion.title
+import deret.DeretTest1
 import deret.Fibonacci
-import deret.onInitDeretTest1
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -19,7 +19,7 @@ fun initView() {
     val n = Scanner(System.`in`).nextInt()
 
     when (n) {
-        1 -> onInitDeretTest1(getTitle(label_option_items[n - 1]))
+        1 -> DeretTest1(getTitle(label_option_items[n - 1]))
         2 -> Fibonacci(getTitle(label_option_items[n - 1]))
     }
 }
