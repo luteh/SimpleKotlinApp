@@ -1,8 +1,9 @@
-import StringResources.Companion.getTitle
-import StringResources.Companion.label_enter_option
-import StringResources.Companion.label_msg_not_in_list
-import StringResources.Companion.label_option_items
-import StringResources.Companion.title
+
+import StringResources.getTitle
+import StringResources.label_enter_option
+import StringResources.label_msg_not_in_list
+import StringResources.label_option_items
+import StringResources.title
 import array.MissingNumberInArray
 import deret.DeretTest1
 import deret.Fibonacci
@@ -19,11 +20,13 @@ fun initView() {
 
     print(label_enter_option)
     val n = Scanner(System.`in`).nextInt()
+    val title = getTitle(label_option_items[n - 1])
 
     when (n) {
-        1 -> DeretTest1(getTitle(label_option_items[n - 1]))
-        2 -> Fibonacci(getTitle(label_option_items[n - 1]))
-        3 -> MissingNumberInArray(getTitle(label_option_items[n - 1]))
+        1 -> DeretTest1(title)
+        2 -> Fibonacci(title)
+        3 -> MissingNumberInArray(title)
+        4 -> CountPerDigits(title)
         else -> print(label_msg_not_in_list)
     }
 }
