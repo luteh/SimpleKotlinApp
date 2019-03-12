@@ -3,7 +3,7 @@ Basic programming logic collection programs using Kotlin
 
 is simple basic programming logic collection programs with various sample cases
 
-Lists: 
+List of programs: 
 1. Number series (1)
 2. Fibonacci
 3. Find missing numbers in array
