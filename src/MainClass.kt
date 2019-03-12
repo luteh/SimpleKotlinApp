@@ -1,4 +1,3 @@
-
 import StringResources.getTitle
 import StringResources.label_enter_option
 import StringResources.label_msg_not_in_list
@@ -7,6 +6,7 @@ import StringResources.title
 import array.MissingNumberInArray
 import deret.DeretTest1
 import deret.Fibonacci
+import string.FindDuplicateCharacters
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -27,6 +27,7 @@ fun initView() {
         2 -> Fibonacci(title)
         3 -> MissingNumberInArray(title)
         4 -> CountPerDigits(title)
+        5 -> FindDuplicateCharacters(title)
         else -> print(label_msg_not_in_list)
     }
 }

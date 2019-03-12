@@ -8,7 +8,8 @@ object StringResources {
                 "1. Deret 1",
                 "2. Fibonacci",
                 "3. Find missing numbers in array",
-                "4. Count Per Digits"
+                "4. Count Per Digits",
+                "5. Find duplicate characters in String"
         )
 
         fun getTitle(title: String): String {
