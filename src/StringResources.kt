@@ -9,7 +9,8 @@ object StringResources {
                 "2. Fibonacci",
                 "3. Find missing numbers in array",
                 "4. Count Per Digits",
-                "5. Find duplicate characters in String"
+                "5. Find duplicate characters in String",
+                "6. Shifting Integer Array"
         )
 
         fun getTitle(title: String): String {

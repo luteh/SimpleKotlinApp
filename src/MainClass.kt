@@ -4,6 +4,7 @@ import StringResources.label_msg_not_in_list
 import StringResources.label_option_items
 import StringResources.title
 import array.MissingNumberInArray
+import array.ShiftArray
 import deret.DeretTest1
 import deret.Fibonacci
 import string.FindDuplicateCharacters
@@ -28,6 +29,7 @@ fun initView() {
         3 -> MissingNumberInArray(title)
         4 -> CountPerDigits(title)
         5 -> FindDuplicateCharacters(title)
+        6 -> ShiftArray(title)
         else -> print(label_msg_not_in_list)
     }
 }
