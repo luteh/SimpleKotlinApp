@@ -9,5 +9,6 @@ List of programs:
 3. Find missing numbers in array
 4. Count each digit of a number
 5. Find duplicate characters in String
+6. Shifting integer array
 
 Sample case will be updated 1/day
