@@ -10,7 +10,8 @@ object StringResources {
                 "3. Find missing numbers in array",
                 "4. Count Per Digits",
                 "5. Find duplicate characters in String",
-                "6. Shifting Integer Array"
+                "6. Shifting Integer Array",
+                "7. Convert xxxxx seconds to xx hours xx mintues xx seconds"
         )
 
         fun getTitle(title: String): String {

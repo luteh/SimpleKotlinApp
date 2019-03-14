@@ -7,6 +7,7 @@ import array.MissingNumberInArray
 import array.ShiftArray
 import deret.DeretTest1
 import deret.Fibonacci
+import etc.TimeConversion
 import string.FindDuplicateCharacters
 import java.util.*
 
@@ -30,6 +31,7 @@ fun initView() {
         4 -> CountPerDigits(title)
         5 -> FindDuplicateCharacters(title)
         6 -> ShiftArray(title)
+        7 -> TimeConversion(title)
         else -> print(label_msg_not_in_list)
     }
 }
