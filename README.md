@@ -10,5 +10,5 @@ List of programs:
 4. Count each digit of a number
 5. Find duplicate characters in String
 6. Shifting integer array
-
-Sample case will be updated 1/day
+7. Time conversion
+8. Combine integer arrays
