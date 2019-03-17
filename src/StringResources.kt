@@ -11,7 +11,8 @@ object StringResources {
                 "4. Count Per Digits",
                 "5. Find duplicate characters in String",
                 "6. Shifting Integer Array",
-                "7. Convert xxxxx seconds to xx hours xx mintues xx seconds"
+                "7. Convert xxxxx seconds to xx hours xx mintues xx seconds",
+                "8. Combine Arrays"
         )
 
         fun getTitle(title: String): String {

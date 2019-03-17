@@ -3,6 +3,7 @@ import StringResources.label_enter_option
 import StringResources.label_msg_not_in_list
 import StringResources.label_option_items
 import StringResources.title
+import array.CombineArrays
 import array.MissingNumberInArray
 import array.ShiftArray
 import deret.DeretTest1
@@ -32,6 +33,7 @@ fun initView() {
         5 -> FindDuplicateCharacters(title)
         6 -> ShiftArray(title)
         7 -> TimeConversion(title)
+        8 -> CombineArrays(title)
         else -> print(label_msg_not_in_list)
     }
 }
