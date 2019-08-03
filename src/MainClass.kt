@@ -8,6 +8,7 @@ import array.MissingNumberInArray
 import array.ShiftArray
 import deret.DeretTest1
 import deret.Fibonacci
+import etc.ExtraLongFactorials
 import etc.TimeConversion
 import string.FindDuplicateCharacters
 import java.util.*
@@ -34,6 +35,7 @@ fun initView() {
         6 -> ShiftArray(title)
         7 -> TimeConversion(title)
         8 -> CombineArrays(title)
+        9 -> ExtraLongFactorials(title)
         else -> print(label_msg_not_in_list)
     }
 }
