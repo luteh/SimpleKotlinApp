@@ -10,6 +10,7 @@ import deret.DeretTest1
 import deret.Fibonacci
 import etc.ExtraLongFactorials
 import etc.TimeConversion
+import etc.TimeConversion2
 import string.FindDuplicateCharacters
 import java.util.*
 
@@ -36,6 +37,7 @@ fun initView() {
         7 -> TimeConversion(title)
         8 -> CombineArrays(title)
         9 -> ExtraLongFactorials(title)
+        10 -> TimeConversion2(title)
         else -> print(label_msg_not_in_list)
     }
 }

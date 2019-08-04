@@ -13,7 +13,8 @@ object StringResources {
                 "6. Shifting Integer Array",
                 "7. Convert xxxxx seconds to xx hours xx mintues xx seconds",
                 "8. Combine Arrays",
-                "9. Extra Long Factorials"
+                "9. Extra Long Factorials",
+                "10. Convert AM/PM to 24 hours date"
         )
 
         fun getTitle(title: String): String {
