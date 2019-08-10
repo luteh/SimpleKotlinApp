@@ -4,6 +4,7 @@ import StringResources.label_msg_not_in_list
 import StringResources.label_option_items
 import StringResources.title
 import array.CombineArrays
+import array.DiagonalDifference
 import array.MissingNumberInArray
 import array.ShiftArray
 import deret.DeretTest1
@@ -38,6 +39,7 @@ fun initView() {
         8 -> CombineArrays(title)
         9 -> ExtraLongFactorials(title)
         10 -> TimeConversion2(title)
+        11 -> DiagonalDifference(title)
         else -> print(label_msg_not_in_list)
     }
 }
