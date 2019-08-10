@@ -12,3 +12,6 @@ List of programs:
 6. Shifting integer array
 7. Time conversion
 8. Combine integer arrays
+9. Extra Long Factorials
+10. Time Conversion2	
+11. Diagonal Difference
