@@ -13,6 +13,7 @@ import etc.ExtraLongFactorials
 import etc.TimeConversion
 import etc.TimeConversion2
 import string.FindDuplicateCharacters
+import string.Palindrome
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -40,6 +41,7 @@ fun initView() {
         9 -> ExtraLongFactorials(title)
         10 -> TimeConversion2(title)
         11 -> DiagonalDifference(title)
+        12 -> Palindrome(title)
         else -> print(label_msg_not_in_list)
     }
 }

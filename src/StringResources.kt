@@ -15,7 +15,8 @@ object StringResources {
                 "8. Combine Arrays",
                 "9. Extra Long Factorials",
                 "10. Convert AM/PM to 24 hours date",
-                "11. Diagonal Difference"
+                "11. Diagonal Difference",
+                "12. Palindrome"
         )
 
         fun getTitle(title: String): String {
